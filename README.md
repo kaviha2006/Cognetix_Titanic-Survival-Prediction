@@ -9,11 +9,17 @@ The Titanic dataset contains historical data of passengers aboard the Titanic, i
 Key features used in this project include:
 
 Passenger Class (Pclass)
+
 Sex
+
 Age
+
 Number of Siblings/Spouses aboard (SibSp)
+
 Number of Parents/Children aboard (Parch)
+
 Fare
+
 Embarkation Port
 
 Using these features, machine learning classification models are trained to predict passenger survival. The model accepts user input through the terminal and displays whether the passenger is predicted to have survived.
@@ -21,25 +27,31 @@ Using these features, machine learning classification models are trained to pred
 📂 Dataset
 
 The dataset used in this project:
+
 🔗 https://www.kaggle.com/c/titanic/data
 
 File used: train.csv
-(Note: Dataset file is not uploaded due to Kaggle licensing restrictions.)
 
 🛠️ Technologies Used
 
 Python
+
 Pandas
+
 NumPy
+
 Scikit-learn
+
 Matplotlib
 
 🚀 How to Run the Project
 
 Install required libraries:
+
 pip install pandas numpy scikit-learn matplotlib
 
 Run the script:
+
 python titanic_prediction.py
 
 ====== TITANIC SURVIVAL PREDICTION ======
@@ -47,14 +59,21 @@ python titanic_prediction.py
 Enter passenger details to predict survival status.
 
 Enter Pclass (1/2/3): 3
+
 Enter Sex (male/female): female
+
 Enter Age: 22
+
 Enter number of siblings/spouses aboard: 1
+
 Enter number of parents/children aboard: 0
+
 Enter Fare: 7.25
+
 Enter Embarked (C/Q/S): S
 
 ✅ Output:
+
 Prediction: Survived
 
 📊 Model Performance
@@ -62,6 +81,7 @@ Prediction: Survived
 Two classification models were implemented:
 
 Logistic Regression
+
 Random Forest Classifier
 
 The Random Forest model achieved higher accuracy and better overall performance, and is used for final predictions. Model evaluation was performed using accuracy, precision, recall, and F1-score metrics.
@@ -71,7 +91,9 @@ The Random Forest model achieved higher accuracy and better overall performance,
 The project includes visual analysis of survival rates based on:
 
 Gender
+
 Passenger Class
+
 Age Group
 
 🎯 Internship Task
